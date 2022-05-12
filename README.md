@@ -1,4 +1,4 @@
-# Hi there! Welcome to my portfolio. This site is a work in progress.
+# Hi there! Welcome to my portfolio site. This site is a work in progress.
 
 I am currently enrolled in a 3-month bootcamp where I gain proficiency in HTML, CSS, Bootstrap, Javascript, Java, MySQL and more. I decided to code a site for my portfolio, and here it is. I designed the layout to be elegant and minimalist.
 
