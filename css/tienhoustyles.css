@@ -147,7 +147,7 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url("bgimages/thomas-griesbeck-BS-Uxe8wU5Y-unsplash.jpg");
+    background-image: url("bgimages/04\ April\ copy.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-size: cover;
@@ -182,6 +182,10 @@ main {
     background-repeat: no-repeat;
     background-size: 100%;
     background-size: cover;
+}
+
+.logos2 img {
+    max-height: 200px;
 }
 
 /*Footer*/

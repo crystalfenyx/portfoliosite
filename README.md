@@ -1,6 +1,6 @@
 # Hi there! Welcome to my portfolio site. This site is a work in progress.
 
-I am currently enrolled in a 3-month bootcamp where I gain proficiency in HTML, CSS, Bootstrap, Javascript, Java, MySQL and more. I decided to code a site for my portfolio, and here it is. I designed the layout to be elegant and minimalist.
+I am currently enrolled in a 3-month bootcamp where I gain proficiency in HTML, CSS, Bootstrap, Javascript, Java, MySQL and more. I decided to code a site for my portfolio, and here it is. The site is not fully functional yet, as I am still working on this. I designed the layout to be elegant and minimalist.
 
 These are the projects I'm working on, but are not on Github yet: 
 
