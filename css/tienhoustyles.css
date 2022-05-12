@@ -1,0 +1,209 @@
+* {
+    box-sizing:border-box;
+}
+
+/*Custom Fonts*/
+@font-face {
+    font-family: 'PrataRegular';
+    src: url('fonts/prata-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('fonts/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JosefinSansRegular';
+    src: url('fonts/josefinsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JosefinSansLight';
+    src: url('fonts/josefinsans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Font Sizes*/
+body {
+    font-size: 16px;
+    color: #545454;
+    font-family:'OpenSansLight';
+    letter-spacing: 0.3px;
+    line-height: 25px;
+}
+
+h1{font-size:60px} /*Hero Image Text*/
+h2{font-size:22px} /*Hero Image Small Text*/
+h3{font-size:35px} /*Section Headings*/
+h4{font-size:23px} /*Subheadings*/
+
+h1 {
+    font-family:'PrataRegular';
+}
+
+h2 {
+    font-family:'JosefinSansLight';
+    letter-spacing: 0.5px;
+}
+
+h3{
+    font-family: 'JosefinSansRegular';
+    font-weight: bold;
+    line-height: 35px;
+    letter-spacing: 0.4px;
+}
+
+h4{
+    font-family: 'JosefinSansRegular';
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-style: bold;
+}
+
+/*Padding*/
+.sectionpadding {
+    padding: 10%;
+} /*Default Padding for Sections*/
+
+.paddingtop {
+    padding-top: 5px;
+} /*Use for between <h3> and body text*/
+
+.paddingtopimages {
+    padding-top: 10px;
+} /*Use for between images and body text*/
+
+.paddingtopmore {
+    padding-top: 12px;
+}
+
+/*Grey bg if needed*/
+.grey {
+    background-color: #E6E6E6;
+    }
+
+/*Nav*/
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 0.5px solid #BEBEBE;
+}
+
+.logo {
+    text-align: center;
+    padding-left: 20px;
+}
+
+.logo img {
+    width: 40px;
+}
+
+.logo p {
+    margin: auto;
+    font-family:'prataregular';
+    font-size: 8px;
+    letter-spacing: 1px;
+}
+
+.navbar-nav {
+    padding: 0px 15px;
+}
+
+.navbar-nav a {
+    margin: 0px 5px;
+    font-family:'JosefinSansRegular';
+    font-size: 13px;
+    letter-spacing: 1.5px;
+}
+
+.searchbox {
+    margin-right: 10px;
+}
+
+/*Main Section*/
+main {
+    position: relative;
+    top: 91px;
+}
+
+/*Hero Section*/
+#hero {
+    display: flex;
+    height: 600px;
+    padding: 10%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("bgimages/thomas-griesbeck-BS-Uxe8wU5Y-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+#hero h1, #hero h2 {
+    color: #ffffff;
+}
+
+/*Mission Section*/
+.mission {
+    display: flex;
+    height: 600px;
+    align-items: center;
+    background-image: url("bgimages/leone-venter-VieM9BdZKFo-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+/*Subscription Plans Section*/
+.subscriptiongrid img {
+    width: 100%;
+}
+
+/*Layout Section*/
+.layout {
+    display: flex;
+    height: 600px;
+    align-items: center;
+    background-image: url("bgimages/sincerely-media-BSp_5MPqBYs-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+/*Footer*/
+footer {
+    padding-bottom: 10px;
+}
+
+#icons {
+    padding-bottom: 4px;
+}
+
+.footercontent a {
+    color: #545454;
+    font-family: 'OpenSansLight';
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+}
+
+.footercontent p {
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 0.8px;
+}
